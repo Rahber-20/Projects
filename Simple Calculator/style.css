@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
@@ -126,4 +127,134 @@ form input[type="button"]{
     cursor: pointer;
     text-align: center;
 }
+=======
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: radial-gradient(circle at 10% 20%, rgb(220, 217, 249) 0%, rgb(172, 224, 217) 89.8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{
+    background: #3a4452;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.calculator form button{
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
+    background: transparent;
+    color: #fff;
+    margin: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+ form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0; 
+}
+ form .display input{
+    width: 200px;
+    text-align: right;
+    box-shadow: none;
+    flex: 1;
+    font-size: 35px;
+    color: #fff;
+    border: none;
+    background: transparent;
+    overflow: hidden;
+}
+
+ .calculator form button#equal {
+    width: 145px;
+    font-size: 23px;
+    background: rgb(200, 131, 1);
+} 
+ form button.operator{
+    color: #25f5be;
+}
+
+form input[type="button"]{
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
+    background: transparent;
+    color: #fff;
+    margin: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    color:#68fbe0 ;
+
+}
+
+
+@media screen and (max-width:362px){
+    .calculator form button{
+        border: 0;
+        outline: 0;
+        width: 30px;
+        height: 30px;
+        border-radius:5px;
+        box-shadow: -6px -6px 15px rgba(255, 255, 255, 0.1),3px 3px 15px rgba(0, 0, 0, 0.2);
+        background: transparent;
+        color: #fff;
+        margin: 7px;
+        font-size: 12px;
+        cursor: pointer;
+        text-align: center;
+    }
+    .calculator form button#equal {
+        width: 85px;
+        font-size: 23px;
+    } 
+    form .display{
+        display: flex;
+        justify-content: flex-end;
+        margin: 10px 0;
+     
+}
+form .display input{
+    text-align: right;
+    box-shadow: none;
+    flex: 1;
+    font-size: 25px;
+    color: #fff;
+    border: none;
+    overflow: hidden;
+}
+form input[type="button"]{
+    border: 0;
+    outline: 0;
+    width: 30px;
+    height: 30px;
+    border-radius:5px;
+    box-shadow: -6px -6px 15px rgba(255, 255, 255, 0.1),3px 3px 15px rgba(0, 0, 0, 0.2);
+    background: transparent;
+    color: #fff;
+    margin: 7px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+}
+>>>>>>> e60ea7b9983a8df9ee925420e842cdb8050edebe
 }
