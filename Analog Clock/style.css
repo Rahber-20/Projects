@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#main{
+    background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+    height: 100vh;
+}
+
+
+#clockContainer{
+    position: relative;
+    height: 40vw;
+    width: 40vw;
+    background: url('pngwing.com.png') no-repeat;
+    background-size: 100%;
+    margin: auto;
+}
+
+#hour{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    width: 1.8%;
+    height: 22%;
+    top: 28%;
+    left: 48.8%;
+    opacity: 0.8;
+    transform-origin: bottom;
+}
+
+
+#minute{
+    position: absolute;
+    background:#0d0c0c;
+    width: 1.5%;
+    height: 30%;
+    border-radius: 10px;
+    top:20% ;
+    left: 48.9%;
+    opacity: 0.8;
+    transform-origin: bottom;
+}
+
+#second{
+    position: absolute;
+    background: red;
+    width: 1.2%;
+    height: 35%;
+    border-radius: 10px;
+    top: 15%;
+    left: 49%;
+    opacity: 0.8;
+    transform-origin: bottom;
+}
+
+@media screen and (max-width:500px){
+    #clockContainer{
+        top: 25%;
+    }
+}
+
+@media screen and (max-width:950px){
+    #clockContainer{
+        top: 27%;
+    }
+}
